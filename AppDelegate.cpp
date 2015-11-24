@@ -16,15 +16,6 @@ USING_NS_CC;
 using namespace CocosDenshion;
 using namespace experimental;
 
-typedef struct tagResource
-{
-    Size size;
-    std::string directory;
-}Resource;
-
-static Resource smallResource  =  { Size(512, 288),   "SD" };
-static Resource mediumResource =  { Size(1024, 576),  "HD" };
-static Resource largeResource  =  { Size(2048, 1152), "HDR" };
 static Size designResolutionSize = Size(512, 288);
 
 AppDelegate::AppDelegate() {
